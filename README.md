@@ -4,11 +4,9 @@
 <p>The fact table <strong><em>'songplays'</em></strong> and dimension tables schema <strong><em>'users','songs','artists' and 'time'</em></strong> are created in sql_queries.py<br>
 The ETL process in Notebook <em>'etl.ipynb'</em> is implemented for a single JSON file in song and log data folder <br>
 <em>'etl.py'</em>  ETL file is processed for all the files in song and log data folders<br>
-songid and artistid is fetched from dimension tables song and artists table based on title,artist and duration and inserted into fact table'songplays' data<br>
 The final table <strong><em>'songplays'</em></strong> fetches the song and artist information from song and log file
 The the song id and artist id from the first data set which is loaded on the songs and artists tables, to load<br>
 the fact table, based on the values from the log file, we get the corresponding values from the song file<br>
-files have the songs and user activity ready for the Sparkify analytical team<br> 
 Perform following steps to get data into the tables <br>
 <ol>
 <li>python create_tables.py</li>
@@ -20,6 +18,6 @@ Perform following steps to get data into the tables <br>
     <p>This will process all the JSON files in the song and log data folders and insert records into fact and dimension tables<br>
     Run test.ipynb to check if all the data is inserted in the tables</p>
 </ol>
-<strong>The final table 'songplays' is displayed as below </strong>
+<strong>The final table 'songplays'  have the songs and user activity ready for the Sparkify analytical team<br> is displayed as below</strong>
 <img src="song_plays_table.PNG" height="400" alt="Screenshot"/>
 </p> 
