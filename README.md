@@ -18,6 +18,6 @@ Perform following steps to get data into the tables <br>
     <p>This will process all the JSON files in the song and log data folders and insert records into fact and dimension tables<br>
     Run test.ipynb to check if all the data is inserted in the tables</p>
 </ol>
-<strong>The final table 'songplays'  have the songs and user activity ready for the Sparkify analytical team<br> is displayed as below</strong>
+<strong>The final table 'songplays'  have the songs and user activity ready for the Sparkify analytical team is displayed as below</strong>
 <img src="song_plays_table.PNG" height="400" alt="Screenshot"/>
 </p> 
