@@ -5,8 +5,8 @@
 The ETL process in Notebook <em>'etl.ipynb'</em> is implemented for a single JSON file in song and log data folder <br>
 <em>'etl.py'</em>  ETL file is processed for all the files in song and log data folders<br>
 The final table <strong><em>'songplays'</em></strong> fetches the song and artist information from song and log file<br>
-The the song id and artist id from the first data set which is loaded on the songs and artists tables, to load<br>
-the fact table, based on the values from the log file, we get the corresponding values from the song file<br>
+The 'song id' and 'artist id' from the first data set which is loaded on the songs and artists tables, to load<br>
+the fact table, based on the values from the log file(song,artist and duration), we get the corresponding values from the song file<br>
 Perform following steps to get data into the tables <br>
 <ol>
 <li>python create_tables.py</li>
